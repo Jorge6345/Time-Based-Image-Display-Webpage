@@ -8,15 +8,15 @@ function setBackgroundImage () {
     currentTime = new Date().getHours();
 
     if (currentTime >= 6 && currentTime < 12) {
-        document.body.style.backgroundImage = "url('/background-images/morning-background.jpg')";
+        document.body.style.backgroundImage = "url('background-images/morning-background.jpg')";
         document.body.style.color = "black";
     }
     else if (currentTime >= 12 && currentTime < 18) {
-        document.body.style.backgroundImage = "url('/background-images/afternoon-background.jpg')";
+        document.body.style.backgroundImage = "url('background-images/afternoon-background.jpg')";
         document.body.style.color = "black";
     }
     else {
-        document.body.style.backgroundImage = "url('/background-images/night-background.jpg')";
+        document.body.style.backgroundImage = "url('background-images/night-background.jpg')";
         document.body.style.color = "white";
     }
 }
