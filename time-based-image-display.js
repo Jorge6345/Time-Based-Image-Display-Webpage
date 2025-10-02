@@ -16,7 +16,7 @@ function setBackgroundImage () {
         document.body.style.color = "black";
     }
     else {
-        document.body.style.backgroundImage = "url('https://unsplash.com/photos/mountains-with-trees-under-white-star-at-night-L95xDkSSuWw')";
+        document.body.style.backgroundImage = "url('background-images/night-background.jpg')";
         document.body.style.color = "white";
     }
 }
